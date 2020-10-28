@@ -13,7 +13,7 @@ const Inicio = () => {
             <div className="bg-imagen-info">
                 <div className="container">
                     <div className="row">
-                        <div className="col s12">
+                        <div className="col s8">
                             Somos un grupo de apasionados por el boxeo. Promovemos el verdadero box…el bueno, el mexicano, el de barrio… el de la Vieja Guardia.
                             <br/>
                             <br/>
