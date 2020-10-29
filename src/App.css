@@ -1,4 +1,8 @@
 /* Generales  */
+body{
+  font-family: 'Patua One', cursive;
+}
+  
 a{
   text-decoration: none;
 }
@@ -6,7 +10,12 @@ a:hover{
   color: white; 
    text-decoration: none;
 }
-
+.justificar{
+  text-align: justify;
+}
+.texto-blanco{
+  color: white;
+}
 /* Padding */
 
 .py-1{
@@ -21,19 +30,48 @@ a:hover{
 .py-4{
   padding: 4rem 0;
 }
+.px-1{
+  padding: 0 1rem ;
+}
+.px-2{
+  padding: 0 2rem ;
+}
+.px-3{
+  padding: 0 3rem ;
+}
+.px-4{
+  padding: 0 4rem ;
+}
 .pb-1{
-  padding: 4rem 0;
+padding-bottom: 1rem;
 }
 .pb-2{
-  padding: 4rem 0;
+  padding-bottom: 2rem;
 }
 .pb-3{
-  padding: 4rem 0;
+  padding-bottom: 3rem;
 }
 .pb-4{
-  padding: 4rem 0;
+  padding-bottom: 4rem;
 }
-
+.pb-5{
+  padding-bottom: 5rem;
+}
+.pt-1{
+padding-top: 1rem;
+}
+.pt-2{
+  padding-top: 2rem;
+}
+.pt-3{
+  padding-top: 3rem;
+}
+.pt-4{
+  padding-top: 4rem;
+}
+.mci{
+  margin-top: 15vh;
+}
 
 /* Margin */
 .m-1{
@@ -49,6 +87,21 @@ a:hover{
   margin: 4rem;
 }
 
+.mt-1{
+  margin-top: 1rem;
+}
+.mt-2{
+  margin-top: 2rem;
+}
+.mt-3{
+  margin-top: 3rem;
+}
+.mt-4{
+  margin-top: 4rem;
+}
+.mb-0{
+  margin-bottom: 0;
+}
 /* Barra de navegacion */
 .barradenavegacion{
   background: rgba(0, 0, 0, 0.61);
@@ -59,16 +112,41 @@ a:hover{
 }
 
 .logonavbar{
-  max-width: 120px;
+  max-width: 160px;
   
 }
+.tamaño-ancla-inicio{
+  font-size: 1.2rem;
+}
+
+/*Redes socuiales*/
+.posicion-redes{
+  z-index: 1200;
+  /* border: 3px solid rgb(238, 193, 109); */
+  position: fixed;
+  /* top: 30%; */
+  /* left: 95vw; */
+  /* background: rgb(0, 0, 0); */
+  /* padding: 1.5rem; */
+  /* border-radius: 50% 0 0 50%; */
+}
+.tamaño-redes{
+  font-size: 2rem;
+}
+/*Footer*/
+
+.footer{
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
 
 /* Inicio */
 
 .bg-imagen-header{
   background-image: url("imagenes/videobg10.png"); 
   background-color: #cccccc; 
-  height: 500px; 
+  height: 100vh; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
@@ -88,9 +166,26 @@ a:hover{
     rgba(0, 0, 0, 0.5)
   ),url("imagenes/section-bg4.png"); 
   background-color: #cccccc; 
-  height: 500px; 
+  height: auto; 
+
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-   
 }
+.texto-inicio{
+  font-size: 1.7rem;
+  color: white;
+  text-align: justify;
+}
+.icono-inicio{
+  font-size: 2rem;
+}
+.logo-inicio{
+  max-width: 23vw;
+}
+.logo-inicio-posicion{
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+
