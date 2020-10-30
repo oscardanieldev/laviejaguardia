@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import BarraNavegacion from './BarraNavegacion';
 import Piedepagina from './Piedepagina';
 
 

@@ -87,6 +87,18 @@ padding-top: 1rem;
   margin: 4rem;
 }
 
+.mx-1{
+  margin: 0 1rem;
+}
+.mx-2{
+  margin: 0 2rem;
+}
+.mx-3{
+  margin: 0 3rem;
+}
+.mx-4{
+  margin: 0 4rem;
+}
 .mt-1{
   margin-top: 1rem;
 }
@@ -101,6 +113,21 @@ padding-top: 1rem;
 }
 .mb-0{
   margin-bottom: 0;
+}
+.mt--1{
+  margin-top: -1rem;
+}
+.mt--2{
+  margin-top: -2rem;
+}
+.my--1{
+  margin: -1rem 0;
+}
+.mt--3{
+  margin-top: -3rem;
+}
+.mt--4{
+  margin-top: -4rem;
 }
 /* Barra de navegacion */
 .barradenavegacion{
@@ -117,6 +144,14 @@ padding-top: 1rem;
 }
 .tamaño-ancla-inicio{
   font-size: 1.2rem;
+}
+
+.justify-content-around{
+  justify-content: space-around;
+}
+
+.bg-gris{
+  background-color: #cccccc;
 }
 
 /*Redes socuiales*/
@@ -189,3 +224,242 @@ padding-top: 1rem;
 }
 
 
+/* Gym Aire */
+
+.bg-imagen-gymaire{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("imagenes/IMG_1905-1-1024x683.png"); 
+  background-color: #cccccc; 
+  height: 100vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+   
+}
+
+
+/* Precios */
+
+.bg-imagen-precios{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("imagenes/gratis-04.png"); 
+  background-color: #cccccc; 
+  height: auto; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+   
+}
+
+.precio-componente-borde{
+    border: rgb(148, 148, 148) 2px solid;
+    border-radius: 0 0 30% 30%;
+    margin: 0 10%;
+    background-color: #cccccc;
+    
+
+
+}
+.m-precios1{
+  margin-top: 10%;
+}
+.bg-crema{
+  background-color: rgb(238, 193, 109);
+}
+.linea-precio{
+  height: 2px;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.btn-radio{
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: transform .3s
+}
+.btn-radio:hover{
+  transform: scale(1.1);
+}
+.ppb-1{
+  padding-bottom: 3.2rem;
+}
+
+.ppb-2{
+  padding-bottom: 3.3rem;
+}
+
+.ppb-3{
+  padding-bottom: 2.2rem;
+}
+.ppb-6{
+  padding-bottom: 2rem;
+}
+.tamaño-letra-precio{
+  font-size: 1.5rem;
+}
+
+/*Reserva tú*/
+
+.bg-imagen-reservatu{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("imagenes/bg01-1.png"); 
+  background-color: #cccccc; 
+  height: 100vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}  
+
+.m-reservatu{
+  margin-top: 15%;
+}
+.color-crema{
+  color: rgb(238, 193, 109);
+}
+
+.borde-formulario{
+  border: rgb(255, 255, 255) 1px solid;
+  padding: 5rem;
+}
+
+/*Zona Fitness*/
+  .m-zonafitness{
+    margin-top: 8%;
+  }
+
+  .menu-zonafitness{
+    position: fixed;
+    border: rgba(0, 128, 0, 0.801) 1px solid;
+    background-color: rgba(0, 128, 0, 0.808);
+    top: 10%;
+    border-radius: 0 30px 30px 0;
+    font-size: 1.2rem;
+  }
+
+  .bg-img-arboledas{
+    background-image: url("imagenes/arboledas.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-coyoacan{
+    background-image: url("imagenes/coyoacan.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-condesa{
+    background-image: url("imagenes/condesa.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-cosmopol{
+    background-image: url("imagenes/cosmopol.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-mixcoac{
+    background-image: url("imagenes/mixcoac.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-polanco{
+    background-image: url("imagenes/polanco.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-santafe{
+    background-image: url("imagenes/santafe.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-esmeralda{
+    background-image: url("imagenes/esmeralda.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-lomasverdes{
+    background-image: url("imagenes/lomasverdes.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-satelite{
+    background-image: url("imagenes/satelite.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-division{
+    background-image: url("imagenes/division.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-universidad{
+    background-image: url("imagenes/universidad.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-sanjeronimo{
+    background-image: url("imagenes/sanjeronimo.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-img-coapa{
+    background-image: url("imagenes/coapa.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .menu-scroll{
+   color: white !important;
+   transition: transform .3s
+
+  }
+  .menu-scroll:hover{
+   border-left:  1px solid white !important;
+   transform: scale(1.1);
+
+  }
+  /*Contacto*/
+  .bg-contacto{
+    background-image: url("imagenes/contacto.png"); 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  .borde-crema-contacto{
+    border: rgb(238, 193, 109) 1px solid;
+
+  }

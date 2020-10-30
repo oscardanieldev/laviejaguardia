@@ -60,9 +60,13 @@
     var instances = M.FloatingActionButton.init(elems, {
       hoverEnabled: false,
     });
-
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, {
+      scrollOffset: 0,
+      activeClass: 'desactivate',
+    });
 
     
-  });
+    });
   </script>
 </html>

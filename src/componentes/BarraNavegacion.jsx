@@ -6,9 +6,13 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Contacto from './Contacto';
 import GymAire from './GymAire';
 import Inicio from './Inicio';
+import Precio from './Precio';
 import Redes from './Redes';
+import Reservatu from './Reservatu';
+import ZonaFitness from './ZonaFintess';
 const BarraNavegacion = () => {
     return (
     <Fragment>
@@ -21,7 +25,7 @@ const BarraNavegacion = () => {
                     <div className="nav-wrapper">
                         <Link to="/">
                             <div className="brand-logo logonavbar margendeescritorio">
-                                <img className="responsive-img " src="logo-header.png" alt=""/>
+                                <img className="responsive-img " src="logo-header.png" alt="logo"/>
                             </div>
                         </Link>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
@@ -50,13 +54,13 @@ const BarraNavegacion = () => {
                             </li>
                             <li>
                                 <Link to="/reservatu">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Reserva tú</span>
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Reserva Tú</span>
                                 </Link>
                             </li>
                             
                             <li>
-                                <Link to="/zona">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Zona</span>
+                                <Link to="/zonafitness">
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Zona Fitness</span>
                                 </Link>
                             </li>
                             
@@ -74,7 +78,7 @@ const BarraNavegacion = () => {
                             
                             <li>
                                 <Link to="/tienda">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio">Tienda</span>
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Tienda</span>
                                 </Link>
                             </li>
                             
@@ -99,13 +103,25 @@ const BarraNavegacion = () => {
                     </div>
                 </nav>
                 <Switch>
-
+                    <Route path="/contacto">
+                        <Contacto />
+                    </Route> 
+                    <Route path="/zonafitness">
+                        <ZonaFitness />
+                    </Route>
+                    <Route path="/reservatu">
+                        <Reservatu />       
+                    </Route>
                     <Route path="/gymaire">
                         <GymAire />
+                    </Route>
+                    <Route path="/precio">
+                        <Precio />
                     </Route>
                     <Route path="/">
                         <Inicio />
                     </Route>
+                    
                 </Switch>
      
             </div>

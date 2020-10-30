@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
+import Piedepagina from './Piedepagina';
 const GymAire = () => {
     return ( 
         <Fragment>
-<h1>desde gym aire</h1>
+            <div className="bg-imagen-gymaire"></div>
+            <Piedepagina />
         </Fragment>
      );
 }
