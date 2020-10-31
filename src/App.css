@@ -17,7 +17,18 @@ a:hover{
   color: white;
 }
 /* Padding */
-
+.p-1{
+  padding: 1rem;
+}
+.p-2{
+  padding: 2rem;
+}
+.p-3{
+  padding: 3rem;
+}
+.p-4{
+  padding: 4rem;
+}
 .py-1{
   padding: 1rem 0;
 }
@@ -68,6 +79,18 @@ padding-top: 1rem;
 }
 .pt-4{
   padding-top: 4rem;
+}
+.pr-1{
+  padding-right: 1rem;
+  }
+.pr-2{
+    padding-right: 2rem;
+}
+.pr-3{
+    padding-right: 3rem;
+}
+.pr-4{
+    padding-right: 4rem;
 }
 .mci{
   margin-top: 15vh;
@@ -130,6 +153,10 @@ padding-top: 1rem;
 .mt--4{
   margin-top: -4rem;
 }
+
+.mr-1{
+  margin-right: 1rem;
+}
 /* Barra de navegacion */
 .barradenavegacion{
   background: rgba(0, 0, 0, 0.61);
@@ -190,7 +217,7 @@ padding-top: 1rem;
 }
 .borde-crema{
   height: 20px;
-  background-color: rgb(238, 193, 109);
+  background-color: #F8C168;
 }
 .borde-blanco{
   height: 20px;
@@ -269,7 +296,7 @@ padding-top: 1rem;
   margin-top: 10%;
 }
 .bg-crema{
-  background-color: rgb(238, 193, 109);
+  background-color: #F8C168;
 }
 .linea-precio{
   height: 2px;
@@ -321,7 +348,7 @@ padding-top: 1rem;
   margin-top: 15%;
 }
 .color-crema{
-  color: rgb(238, 193, 109);
+  color: #F8C168;
 }
 
 .borde-formulario{
@@ -461,7 +488,7 @@ padding-top: 1rem;
   }
 
   .borde-crema-contacto{
-    border: rgb(238, 193, 109) 1px solid;
+    border: #F8C168 1px solid;
     border-radius: 19px;
 
   }
@@ -476,4 +503,132 @@ padding-top: 1rem;
   }
   .mapa{
     border-radius: 20px;
+  }
+  .contenedor-iframe{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .iframe-responsivo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+  /*Acerca de*/
+
+  .m-acercade{
+    margin-top: 24%;
+  }
+
+  .bg-imagen-acerca1{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("imagenes/acercade1.png"); 
+    background-color: #cccccc; 
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }  
+  .bg-imagen-acerca2{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/acercade2.png"); 
+    background-color: #cccccc; 
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }  
+
+  .border-acerca-gris{
+    border: grey 1px solid;
+  }
+  .border-acerca-crema{
+    border: #F8C168 1px solid;
+  }
+
+  .trazo1{
+    stroke:#F8C168; stroke-width:12;
+    position: absolute;
+    
+  }
+  .m-acerca1{
+    margin: 3rem 18rem;
+    padding: 1rem;
+  }
+  .borde-left-acerca{
+    border-left: #F8C168 6px solid;
+    height: 500px;
+    position: absolute;
+    bottom: 500;
+  }
+  .borde-top-acerca{
+    border-top: #F8C168 6px solid;
+  }
+  .borde-right-acerca{
+    border-right: #F8C168 6px solid;
+  }
+  .border-acerca-blanco{
+    border: #ffffff 6px solid;
+
+  }
+  .borde-talento{
+    border: #cccccc 1px solid;
+    border-radius: 40px;
+  }
+  .py-2-8{
+    padding: 2.8rem 0;
+  }
+
+  /*Gimnasios*/
+
+  .bg-palmas{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgpalmas.svg"); 
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-esmeralda{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgesmelada.svg"); 
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-roma{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgroma.svg"); 
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .bg-centro{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgcentro.svg"); 
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
   }

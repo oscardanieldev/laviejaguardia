@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Piedepagina from './Piedepagina';
 
 const ZonaFitness = () => {
     return ( 
@@ -211,6 +212,7 @@ const ZonaFitness = () => {
                     </div>
                 </div>
             </div>
+            <Piedepagina />
         </Fragment>
      );
 }

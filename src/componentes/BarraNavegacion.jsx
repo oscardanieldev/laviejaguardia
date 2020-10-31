@@ -6,7 +6,12 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import AcercaDe from './AcercaDe';
 import Contacto from './Contacto';
+import GCentro from './GCentro';
+import GEsmeralda from './GEsmeralda';
+import GPalmas from './GPalmas';
+import GRoma from './GRoma';
 import GymAire from './GymAire';
 import Inicio from './Inicio';
 import Precio from './Precio';
@@ -34,11 +39,26 @@ const BarraNavegacion = () => {
                                 <a className='dropdown-trigger waves-effect waves-light tamaño-ancla-inicio' href='#' data-target='dropdown1'>Gimnasios</a>
 
                                         <ul id='dropdown1' className='dropdown-content'>
-                                            <li><a href="#!" className="black-text">Palmas</a></li>
-                                            <li><a href="#!" className="black-text">Esmeralda</a></li>
-                                            <li><a href="#!" className="black-text">Roma</a></li>
-                                            <li><a href="#!" className="black-text">Centro</a></li>
-
+                                            <li>
+                                                <Link to="/palmas">
+                                                    <span className="black-text">Palmas</span>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/esmeralda">
+                                                    <span className="black-text">Esmeralda</span>
+                                                </Link>
+                                            </li>                                  
+                                            <li>
+                                                <Link to="/roma">
+                                                    <span className="black-text">Roma</span>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/centro">
+                                                    <span className="black-text">Centro</span>
+                                                </Link>
+                                            </li>
                                         </ul>
                             </li>
 
@@ -96,13 +116,28 @@ const BarraNavegacion = () => {
                             
                             <li>
                                 <Link to="/acerca">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio">Acerca</span>
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio">Acerca de</span>
                                 </Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <Switch>
+                    <Route path="/palmas">
+                        <GPalmas />
+                    </Route> 
+                    <Route path="/esmeralda">
+                        <GEsmeralda />
+                    </Route> 
+                    <Route path="/roma">
+                        <GRoma />
+                    </Route> 
+                    <Route path="/centro">
+                        <GCentro />
+                    </Route> 
+                    <Route path="/acerca">
+                        <AcercaDe />
+                    </Route> 
                     <Route path="/contacto">
                         <Contacto />
                     </Route> 
