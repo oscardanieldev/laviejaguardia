@@ -8,6 +8,7 @@ import {
   } from "react-router-dom";
 import AcercaDe from './AcercaDe';
 import Contacto from './Contacto';
+import Galeria from './Galeria';
 import GCentro from './GCentro';
 import GEsmeralda from './GEsmeralda';
 import GPalmas from './GPalmas';
@@ -17,6 +18,7 @@ import Inicio from './Inicio';
 import Precio from './Precio';
 import Redes from './Redes';
 import Reservatu from './Reservatu';
+import Salon from './Salon';
 import ZonaFitness from './ZonaFintess';
 const BarraNavegacion = () => {
     return (
@@ -85,8 +87,8 @@ const BarraNavegacion = () => {
                             </li>
                             
                             <li>
-                                <Link to="/salo">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Saló</span>
+                                <Link to="/salon">
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">Salón</span>
                                 </Link>
                             </li>
                             
@@ -123,6 +125,12 @@ const BarraNavegacion = () => {
                     </div>
                 </nav>
                 <Switch>
+                    <Route path="/galeria">
+                        <Galeria />
+                    </Route>
+                    <Route path="/salon">
+                        <Salon />
+                    </Route> 
                     <Route path="/palmas">
                         <GPalmas />
                     </Route> 
@@ -160,13 +168,64 @@ const BarraNavegacion = () => {
                 </Switch>
      
             </div>
-        </Router>
-                <ul className="sidenav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                <ul className="sidenav " id="mobile-demo">
+                    <li>
+                        <h4 className="center-align">La Vieja Guardia</h4><hr/>
+                    </li>
+                    <li>
+                        <Link to="/gymaire">
+                            <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">GYM Aire</div>
+                        </Link>
+                    </li>                           
+                    <li>
+                        <Link to="/precio">
+                            <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">Precio</div>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/reservatu">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Reserva Tú</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/zonafitness">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Zona Fitness</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/salon">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Salón</span>
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link to="/gymactiv">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">GymActiv</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/tienda">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Tienda</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/contacto">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Contacto</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/galeria">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Galería</span>
+                        </Link>
+                    </li> 
+                    <li>
+                        <Link to="/acerca">
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">Acerca de</span>
+                        </Link>
+                    </li>       
+                     
                 </ul>
+            </Router>
 
     </Fragment> );
 }

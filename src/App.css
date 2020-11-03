@@ -65,8 +65,32 @@ padding-bottom: 1rem;
 .pb-4{
   padding-bottom: 4rem;
 }
+
 .pb-5{
   padding-bottom: 5rem;
+}
+.pb-6{
+  padding-bottom: 6rem;
+}
+
+.pb-7{
+  padding-bottom: 7rem;
+}
+
+.pb-8{
+  padding-bottom: 8rem;
+}
+
+.pb-9{
+  padding-bottom: 9rem;
+}
+
+.pb-12{
+  padding-bottom: 12rem;
+}
+
+.pb-13{
+  padding-bottom: 13rem;
 }
 .pt-1{
 padding-top: 1rem;
@@ -122,6 +146,18 @@ padding-top: 1rem;
 .mx-4{
   margin: 0 4rem;
 }
+.my-1{
+  margin:1rem 0 ;
+}
+.my-2{
+  margin:2rem 0 ;
+}
+.my-3{
+  margin:3rem 0 ;
+}
+.my-4{
+  margin: 4rem 0 ;
+}
 .mt-1{
   margin-top: 1rem;
 }
@@ -136,7 +172,7 @@ padding-top: 1rem;
 }
 
 .mb-0{
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .mt--1{
   margin-top: -1rem;
@@ -628,6 +664,118 @@ padding-top: 1rem;
     ), url("imagenes/bgcentro.svg"); 
     background-color: #cccccc; 
     height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+
+  .m-gimnasios{
+    margin-top: 10%;
+  }
+  .borde-gimnasios{
+    border: #cccccc 1px solid;
+    border-radius: 60px;
+    font-size: 2rem;
+
+  }
+
+ 
+
+  .sucursal{
+    
+      background-color: #a5a5a5;
+    
+  }
+  .sucursal-mt{
+    margin-top: 6rem;
+  }
+  .sucursal-size{
+    font-size: 2.6rem;
+  }
+  .palmas-radio{
+    border-radius: 40px;
+  }
+  .sucursal-borde-r{
+    border-right: #F8C168 6px solid;
+  }
+
+  /*Salón*/
+  .bg-salon{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgsalon.png"); 
+    background-color: #cccccc; 
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .m-salon{
+    margin-top: 8%;
+  }
+  .px-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .bg-crema-t-salon{
+    background-color: #f8c168bd;
+  }
+
+  .borde-salon{
+    border: #F8C168 6px solid;
+
+  }
+  .cuadro-amarillo{
+    position: absolute;
+    margin: 0 0 0 50px;
+    width: 170px;
+    height: 50px;
+    background-color: #F8C168;    
+  }
+  .cuadro-blanco{
+    position: absolute;
+    margin: 15px 0 0 145px;
+    width: 170px;
+    height: 50px;
+    background-color: #ffffff;    
+  }
+  .arriba{
+    z-index: 15 !important;
+    position: absolute;
+  }
+  .posicion-titulo-salon-m{
+    margin-left: -3%;
+
+  }
+  .titulo-salon{
+    font-size: 2rem;
+  }
+  .linea-salon{
+    width: 100px;
+    height: 2px;
+    background-color: #F8C168;    
+  }
+  .borde-top-salon{
+    border-top: #F8C168 1px solid;
+  }
+
+  .border-t0{
+    border: #F8C168 3px solid;
+    border-top: 0;
+    padding: 1rem;
+  }
+
+  /*Galería*/
+  .bg-galeria{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bggaleria.png"); 
+    background-color: #cccccc; 
+    height: 200vh; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
