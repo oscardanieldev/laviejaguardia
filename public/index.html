@@ -65,6 +65,12 @@
       scrollOffset: 0,
       activeClass: 'desactivate',
     });
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {
+      numVisible: 25,
+      duration: 190,
+
+    });
 
     
     });

@@ -32,7 +32,7 @@ const BarraNavegacion = () => {
                     <div className="nav-wrapper">
                         <Link to="/">
                             <div className="brand-logo logonavbar margendeescritorio">
-                                <img className="responsive-img " src="logo-header.png" alt="logo"/>
+                                <img className="responsive-img" src="logo-header.png" alt="logo"/>
                             </div>
                         </Link>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
