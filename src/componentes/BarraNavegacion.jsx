@@ -169,9 +169,36 @@ const BarraNavegacion = () => {
      
             </div>
                 <ul className="sidenav " id="mobile-demo">
+                    
                     <li>
                         <h4 className="center-align">La Vieja Guardia</h4><hr/>
                     </li>
+                    <li>
+                        <h5 className="center-align">Sucursales</h5>
+                    </li>
+                    <li>
+                        <Link to="/palmas">
+                                <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">Palmas</div>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/esmeralda">
+                                <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">Esmeralda</div>
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link to="/roma">
+                                <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">Roma</div>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/centro">
+                                <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">Centro</div>
+                        </Link>
+                    </li>
+                    <li class="divider" tabindex="-1"></li>
+
                     <li>
                         <Link to="/gymaire">
                             <div className="waves-effect waves-light tamaño-ancla-inicio color-crema">GYM Aire</div>

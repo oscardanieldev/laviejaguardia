@@ -13,7 +13,7 @@ const Galeria = () => {
                         </h2>
                         <div className="row">
                             <div className="carousel ">
-                                <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g1.png" alt="imagen 1"/></a>
+                                <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g25.png" alt="imagen 1"/></a>
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g2.png" alt="imagen 2"/></a>
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g3.png" alt="imagen 3"/></a>
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g4.png" alt="imagen 4"/></a>
@@ -37,7 +37,7 @@ const Galeria = () => {
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g22.png" alt="imagen 22"/></a>
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g23.png" alt="imagen 23"/></a>
                                 <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g24.png" alt="imagen 24"/></a>
-                                <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g25.png" alt="imagen 25"/></a>
+                                <a className="carousel-item" href="#one!"><img className="responsive-img materialboxed"  src="imagenes/g21.png" alt="imagen 25"/></a>
                                 
 
                             </div>

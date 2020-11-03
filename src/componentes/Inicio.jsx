@@ -17,7 +17,7 @@ const Inicio = () => {
                         </div>
                     </div>
                     <div className="row mb-0 pb-">
-                        <div className="col s8">
+                        <div className="col s12 l8">
                             <ul>
                                 <li>
                                     <i className="material-icons left amber-text text-lighten-2">star</i>
@@ -60,11 +60,12 @@ const Inicio = () => {
                                 </li>
                             </ul>
                         </div>  
-                        <div className="col 4 logo-inicio">
+                        <div className="col l4 hide-on-med-and-down logo-inicio">
                             <img className="responsive-img logo-inicio-posicion" src="imagenes/logo-about.png" alt="Logo"/>
                         </div>
                     </div>
                 </div>
+                
             </div>
             <Piedepagina />
         </Fragment>
