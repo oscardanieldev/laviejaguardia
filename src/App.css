@@ -149,6 +149,10 @@ padding-top: 1rem;
 .mx-4{
   margin: 0 4rem;
 }
+.my-0{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .my-1{
   margin:1rem 0 ;
 }
@@ -801,3 +805,26 @@ padding-top: 1rem;
   transform: scale(1.5);
 
  }
+
+ /*Tienda*/
+
+ .bgtienda{
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("imagenes/bgtienda.png"); 
+    background-color: #cccccc; 
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+ }
+
+ .container-tienda{
+   
+   margin: 0 40%;
+ }
+
+ .bg-crema-tienda{
+  background-color: #f8c1689f;
+}

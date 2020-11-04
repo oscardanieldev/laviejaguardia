@@ -19,6 +19,7 @@ import Precio from './Precio';
 import Redes from './Redes';
 import Reservatu from './Reservatu';
 import Salon from './Salon';
+import Tienda from './Tienda';
 import ZonaFitness from './ZonaFintess';
 const BarraNavegacion = () => {
     return (
@@ -94,7 +95,7 @@ const BarraNavegacion = () => {
                             
                             <li>
                                 <Link to="/gymactiv">
-                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">GymActiv</span>
+                                    <span className="waves-effect waves-light tamaño-ancla-inicio px-1">GymActive</span>
                                 </Link>
                             </li>
                             
@@ -125,6 +126,9 @@ const BarraNavegacion = () => {
                     </div>
                 </nav>
                 <Switch>
+                    <Route path="/tienda">
+                        <Tienda />
+                    </Route>
                     <Route path="/galeria">
                         <Galeria />
                     </Route>
@@ -227,7 +231,7 @@ const BarraNavegacion = () => {
 
                     <li>
                         <Link to="/gymactiv">
-                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">GymActiv</span>
+                            <span className="waves-effect waves-light tamaño-ancla-inicio color-crema">GymActive</span>
                         </Link>
                     </li>
                     <li>
