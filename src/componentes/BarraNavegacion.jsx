@@ -35,7 +35,7 @@ const BarraNavegacion = () => {
                                 <img className="responsive-img" src="logo-header.png" alt="logo"/>
                             </div>
                         </Link>
-                        <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                        <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons color-crema">menu</i></a>
                         <ul className="right hide-on-med-and-down">
                             <li>
                                 <a className='dropdown-trigger waves-effect waves-light tamaño-ancla-inicio' href='#' data-target='dropdown1'>Gimnasios</a>
@@ -168,13 +168,13 @@ const BarraNavegacion = () => {
                 </Switch>
      
             </div>
-                <ul className="sidenav " id="mobile-demo">
+                <ul className="sidenav barradenavegacion" id="mobile-demo">
                     
                     <li>
-                        <h4 className="center-align">La Vieja Guardia</h4><hr/>
+                        <h4 className="center-align white-text">La Vieja Guardia</h4><hr/>
                     </li>
                     <li>
-                        <h5 className="center-align">Sucursales</h5>
+                        <h5 className="center-align white-text">Sucursales</h5>
                     </li>
                     <li>
                         <Link to="/palmas">

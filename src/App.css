@@ -197,6 +197,8 @@ padding-top: 1rem;
   margin-right: 1rem;
 }
 /* Barra de navegacion */
+
+
 .barradenavegacion{
   background: rgba(0, 0, 0, 0.61);
 }
@@ -336,6 +338,12 @@ padding-top: 1rem;
 }
 .bg-crema{
   background-color: #F8C168;
+}
+.bg-crema-h{
+  background-color: #F8C168;
+}
+.bg-crema-h:hover{
+  background-color: #F8C168 !important;
 }
 .linea-precio{
   height: 2px;
@@ -520,7 +528,7 @@ padding-top: 1rem;
   /*Contacto*/
   .bg-contacto{
     background-image: url("imagenes/contacto.png"); 
-    height: 100vh; 
+    height: auto; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;

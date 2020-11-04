@@ -8,7 +8,12 @@ const Precio = () => {
             <div className="bg-imagen-precios">
                 <div className="container">
                     <div className="row">
-                        <span className="col m4 m-precios1">
+                        <div className="col s12 sucursal-mt">
+                            <h4 className="center-align color-crema">Precios</h4>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <span className="col l4 s12 m-precios1">
                             <div className="center-align">
                                 <div className="precio-componente-borde ppb-1">
 
@@ -25,7 +30,7 @@ const Precio = () => {
                             </div>    
                         </span>
 
-                        <span className="col m4 m-precios1">
+                        <span className="col  l4 s12 m-precios1">
                             <div className="center-align">
                                 <div className="precio-componente-borde ppb-2">
                                 
@@ -40,7 +45,7 @@ const Precio = () => {
                             </div>    
 
                         </span>
-                        <span className="col m4 m-precios1">
+                        <span className="col  l4 s12 m-precios1">
                             <div className="center-align">
                                 <div className="precio-componente-borde ppb-3">
 
@@ -57,7 +62,7 @@ const Precio = () => {
                         
                     </div>
                     <div className="row">
-                        <span className="col m4 m-precios1">
+                        <span className="col  l4 s12 m-precios1">
                                 <div className="center-align">
                                     <div className="precio-componente-borde ppb-1">
 
@@ -73,7 +78,7 @@ const Precio = () => {
                                     
                                 </div>    
                             </span>
-                            <span className="col m4 m-precios1">
+                            <span className="col  l4 s12 m-precios1">
                                 <div className="center-align">
                                     <div className="precio-componente-borde ppb-1">
 
@@ -89,7 +94,7 @@ const Precio = () => {
                                     
                                 </div>    
                             </span>
-                            <span className="col m4 m-precios1">
+                            <span className="col  l4 s12 m-precios1">
                                 <div className="center-align">
                                     <div className="precio-componente-borde ppb-3">
 
@@ -108,7 +113,7 @@ const Precio = () => {
                             </span>
                     </div>
                     <div className="row mb-0 pb-2">
-                        <span className="col m4 offset-m4 m-precios1">
+                        <span className="col l4 offset-l4 s12 m-precios1">
                             <div className="center-align">
                                 <div className="precio-componente-borde ppb-1">
 

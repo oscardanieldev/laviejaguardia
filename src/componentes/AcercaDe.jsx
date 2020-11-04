@@ -53,7 +53,7 @@ const AcercaDe = () => {
                                     Profesionales                        
                             </h3>
                         </div>
-                        <div className="row center-align">
+                        <div className="row center-align ">
                             <div className="col s12 ">
                                     <h4 className="color-crema m-acerca1 border-acerca-blanco">
                                         Dedicarse al boxeo como profesión es algo digno de admirarse.
